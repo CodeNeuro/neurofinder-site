@@ -1,23 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Abel);
 @font-face {
   font-family: "CooperHewitt-Medium";
-  src: url("fonts/CooperHewitt-Medium.woff") format("woff"), url("fonts/CooperHewitt-Medium.eot") format("eot"); }
+  src: url("../fonts/CooperHewitt-Medium.woff") format("woff"), url("fonts/CooperHewitt-Medium.eot") format("eot"); }
 
 @font-face {
   font-family: "CooperHewitt-MediumItalic";
-  src: url("fonts/CooperHewitt-MediumItalic.woff") format("woff"), url("fonts/CooperHewitt-MediumItalic.eot") format("eot"); }
+  src: url("../fonts/CooperHewitt-MediumItalic.woff") format("woff"), url("fonts/CooperHewitt-MediumItalic.eot") format("eot"); }
 
 @font-face {
   font-family: "CooperHewitt-Light";
-  src: url("fonts/CooperHewitt-Light.woff") format("woff"), url("fonts/CooperHewitt-Light.eot") format("eot"); }
+  src: url("../fonts/CooperHewitt-Light.woff") format("woff"), url("fonts/CooperHewitt-Light.eot") format("eot"); }
 
 @font-face {
   font-family: "CooperHewitt-LightItalic";
-  src: url("fonts/CooperHewitt-LightItalic.woff") format("woff"), url("fonts/CooperHewitt-LightItalic.eot") format("eot"); }
+  src: url("../fonts/CooperHewitt-LightItalic.woff") format("woff"), url("fonts/CooperHewitt-LightItalic.eot") format("eot"); }
 
 @font-face {
   font-family: "CooperHewitt-Book";
-  src: url("fonts/CooperHewitt-Book.woff") format("woff"), url("fonts/CooperHewitt-Book.eot") format("eot"); }
+  src: url("../fonts/CooperHewitt-Book.woff") format("woff"), url("fonts/CooperHewitt-Book.eot") format("eot"); }
 
 @font-face {
   font-family: "AvenirNext-UltraLight";
