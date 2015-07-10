@@ -101,6 +101,7 @@ h1 {
     font-size: 66px;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #505050;
 }
 
 
@@ -110,7 +111,7 @@ h2 {
     margin-bottom: 10px;
     font-weight: 100;
     text-align: center;
-    color: rgb(238,238,238);
+    color: #ebebf5;
 }
 
 h3 {
@@ -118,7 +119,7 @@ h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 100;
-    color: rgb(40, 40, 40);
+    color: rgb(50, 50, 50);
 }
 
 .left {
@@ -140,7 +141,7 @@ h3 {
 }
 
 #top {
-	background-color: white;
+	background-color: #ebebf5;
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-top: -8px;
@@ -195,7 +196,7 @@ h3 {
     pointer-events: all;
 	outline:none;
     border-radius: 5px;
-    color: white;
+    color: #ebebf5;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
@@ -220,12 +221,12 @@ h3 {
 }
 
 .launch-wrapper:hover {
-    background-color: white;
+    background-color: #ebebf5;
 }
 
 .launch:active {
     color: #28B473;
-    background-color: white;
+    background-color: #ebebf5;
 }
 
 @media (max-width: 1024px) {
