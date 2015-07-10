@@ -820,7 +820,9 @@ html {
   text-rendering: optimizeLegibility; }
 
 hr {
-  border-width: 3px 0 0; }
+  border-width: 3px 0 0;
+  border-top-color: white;
+  border-top-style: dotted; }
 
 li {
   margin-top: 10px;
