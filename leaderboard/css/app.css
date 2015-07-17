@@ -876,7 +876,8 @@ li {
 .thumbnail {
   border-radius: 10px;
   border: solid 5px white;
-  width: 300px; }
+  width: 300px;
+  display: block; }
 
 .round {
   font-family: "AvenirNext";
@@ -1100,7 +1101,10 @@ table {
       text-align: right;
       text-transform: uppercase; }
       table tr.details td.metric-label {
-        padding-right: 15px; }
+        padding-right: 15px;
+        width: 80px;
+        text-align: right;
+        text-transform: uppercase; }
   table thead .dataset-container {
     margin-bottom: 10px; }
   table thead .dataset {
@@ -1149,22 +1153,23 @@ table {
           height: auto;
           border-radius: 3px; }
       table tbody td.submission-image {
-        display: -webkit-inline-box;
+        display: block;
         text-align: left;
         vertical-align: top;
         padding-left: 0px;
         height: 75px;
         margin-left: -25px; }
       table tbody td.number {
-        font-family: monospace;
+        font-family: Inconsolata;
         text-align: center;
         width: 75px;
         border-radius: 10px;
-        opacity: 0.7; }
+        opacity: 0.7;
+        font-size: 100%; }
       table tbody td.number-full {
         opacity: 1; }
       table tbody td.details {
-        width: 550px;
+        width: 300px;
         padding-right: 15px;
         padding-left: 20px;
         text-align: left;
