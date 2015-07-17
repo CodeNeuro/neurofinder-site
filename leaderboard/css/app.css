@@ -929,7 +929,7 @@ li {
   font-weight: 500;
   background-color: #fafafa;
   border-radius: 3px;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-family: Inconsolata;
   margin-left: 5px;
   margin-right: 5px;
   color: #408F69; }
@@ -950,14 +950,14 @@ section {
   margin-top: 0px; }
 
 .sidetitle {
-  font-family: Consolas;
+  font-family: Inconsolata;
   font-style: italic;
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
   color: #505050;
   margin-top: 300px;
   margin-left: 75px;
-  font-size: 60px;
+  font-size: 62px;
   font-weight: 800;
   cursor: pointer; }
 
