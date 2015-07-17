@@ -142,17 +142,23 @@ h3 {
 }
 
 #top {
+  position: fixed;
+  height: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
 	background-color: #ebebf5;
 	margin-left: -8px;
 	margin-right: -8px;
-	margin-top: -8px;
-    padding-bottom: 54px;
-    padding-top: 13px;
-	//border-bottom: 5px rgb(69, 133, 255) dotted;
 }
 
 #bottom {
-    padding-top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 50%;
+  padding-top: 20px;
 }
 
 #final {
@@ -278,11 +284,22 @@ h3 {
     font-size: 52px;
   }
 
+  #top {
+    position: relative;
+    top: -10;
+    height: 80%;
+  }
+
+  #bottom {
+    position: relative;
+    height: 100%;
+  }
+
 
   #footer {
     text-align: center;
     right: -10px;
-    bottom: 70px;
+    bottom: 50px;
     position: relative;
   }
 
