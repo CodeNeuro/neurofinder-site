@@ -1069,7 +1069,9 @@ section {
   cursor: pointer;
   border: solid 1px white;
   border-left: solid 6px white;
-  pointer-events: all !important; }
+  pointer-events: all !important;
+  table-layout: fixed;
+  max-width: 100%; }
 
 .subtable:hover {
   box-shadow: 0 0 0px 6px rgba(180, 180, 180, 0.35); }
@@ -1117,7 +1119,7 @@ section {
 table {
   font-size: 14px;
   transition: all 0.15s ease;
-  width: 100%; }
+  max-width: 100%; }
   table .left {
     text-align: left; }
   table .right {
@@ -1180,8 +1182,8 @@ table {
         padding-left: 0px;
         width: 40px;
         height: 40px;
-        padding-top: 20px;
-        padding-right: 0; }
+        padding-right: 0;
+        padding-top: 15px; }
         table tbody td.avatar img {
           vertical-align: middle;
           width: 75px;
